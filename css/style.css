@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    color:#fffffd;
+    background-color: #1f172c;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav  > ul {
+    width: 64vw;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+nav > ul > li {
+    margin: 0 32px 0 0;
+}
+
+.download_cv {
+    color: white;
+    background-color: #d5213a;
+    border: 9px solid #d5213a;
+    border-radius: 5px;
+}
+
+.main_section {
+    display: flex;
+    width: 100%;
+    background-color: #1f172c;
+}
+
+.intro {
+    margin:0 0 0 10%;
+    width: 32vw;
+    color:white;
+    padding-top: 32vh;
+}
+
+.info {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.greetings {
+    border: 12px solid #52182e;
+    border-radius: 4px;
+    background-color: #52182e;
+}
+
+.myName {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
+    height: 4vh;
+}
+
+.picture {
+    width: 64vw;
+    padding: 0 0 0 4vw;
+}
