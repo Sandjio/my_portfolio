@@ -23,6 +23,11 @@ nav > ul > li {
     padding: 0 32px 0 0;
 }
 
+.myLinks {
+    text-decoration: none;
+    color: inherit;
+}
+
 .download_cv {
     color: white;
     background-color: #d5213a;
@@ -32,9 +37,10 @@ nav > ul > li {
 
 main {
     width: 100%;
+    color: #ffffff;
 }
 
-.main_section {
+.first_section {
     display: flex;
     background-color: #1f172c;
     color: white;
@@ -86,3 +92,21 @@ main {
 .social-media {
     padding: 15px 0 0 0;
 }
+
+.social-media > a {
+    color: #d5213a;
+}
+/* End of first section style */
+
+/* Second section style starts below */
+
+.second_section {
+    width: 100%;
+    background-color: #2a2344;
+}
+
+/* .rectangle_box {
+    width: 20%;
+    height: 10px;
+    border:1px dashed #d5213a;
+} */
