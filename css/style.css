@@ -101,12 +101,37 @@ main {
 /* Second section style starts below */
 
 .second_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     background-color: #2a2344;
 }
 
-/* .rectangle_box {
+.rectangle_box {
     width: 20%;
-    height: 10px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    vertical-align: middle;
     border:1px dashed #d5213a;
-} */
+    border-style: dashed;
+    margin: 68px 36px 68px 0;
+    border-radius: 0 35px 0 0;
+}
+
+.two {
+    border: 1px solid #d5213a;
+}
+
+.numbers {
+    font-family: 'Barlow', sans-serif;
+    font-size: 4rem;
+}
+
+.specs {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
